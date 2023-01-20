@@ -1,0 +1,26 @@
+section {
+    background-color: white;
+    align-items: stretch;
+    /* box-shadow: -2px 2px 2px lightgray; */
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--wm-green);
+    flex-grow: 1;
+}
+
+section-title {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-color: var(--wm-green);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+section-body {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.5em 1em 1.5em;
+    gap: 1em;
+}

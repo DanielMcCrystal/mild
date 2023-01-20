@@ -1,0 +1,14 @@
+#body {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1em;
+}
+
+
+#misc {
+    gap: 0.8em;
+    display: flex;
+    flex-direction: row;
+}

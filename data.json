@@ -1,0 +1,112 @@
+{
+    "header": {
+        "name": "Daniel McCrystal",
+        "location": "Washington, DC",
+        "email": "drmccrystal@gmail.com",
+        "github": "<a href='https://github.com/DanielMcCrystal/'>github.com/DanielMcCrystal</a>",
+        "phone": "434-566-8824"
+
+    },
+    "work": {
+        "meta_swe": {
+            "id": "meta_swe",
+            "icon_filename": "meta.png",
+            "time": "2020 - present",
+            "title": "Meta Platforms",
+            "subtitle": "Software Engineer",
+            "bullets": [
+                "<strong>Integrity Measurements & Insights</strong> team\n<ul><li>Develop configurable data pipeline infrastructure for <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong></li><li>Collaborate with data scientists to implement rigorous statistical methodologies at Facebook and Instagram scale (hundreds of billions of impressions per day)</li></ul>",
+                "Built infrastructure for the <strong>Integrity Guardrails platform</strong>: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features\n<ul><li>Flagship metrics owned by our team were included in all product experiments</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul>",
+                "Proposed and led year-long architecture consolidation of <strong>three</strong> different machine-learning-based measurement systems by breaking them down into modular components\n<ul><li>Resulted in 75% compute savings in aggregate</li><li>Reduction of codebase fragmentation led to a more sustainable developer environment</li></ul>",
+                "Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes",
+                "Proposed and implemented novel methodology for measuring concentration of harmful user experiences",
+                "Participated in on-call rotation to keep infrastructure consistently operational"
+            ]
+        },
+        "meta_intern": {
+            "id": "meta_intern",
+            "icon_filename": "fb.png",
+            "time": "Summer 2019",
+            "title": "Meta Platforms (Facebook)",
+            "subtitle": "Software Engineering Intern",
+            "bullets": [
+                "Built internal web console using <strong style>React</strong> for the <strong>Search Indexing Infrastructure</strong> team to monitor and repair data indexing pipelines",
+                "Wrote and deployed an automated service in <strong>Python</strong> for intelligent pipeline failure detection and notification",
+                "Tools are still in use by employees to oversee the ingestion of over 1.2 petabytes of data every week"
+            ]
+        },
+        "semeru": {
+            "id": "semeru",
+            "icon_filename": "semeru.png",
+            "time": "2018 - 2020",
+            "title": "<a href='https://www.cs.wm.edu/semeru/'>SEMERU Lab</a>",
+            "subtitle": "Research Assistant",
+            "bullets": [
+                "Designed and implemented a modular tool in <strong>Python</strong> for executing and evaluating 10 differnent information retrieval techniques on arbitrary codebases",
+                "Converted a serial document processing system to a parallel one, improving compuation time by ~40x"
+            ],
+            "publications": [
+                "<a href='https://www.cs.wm.edu/~denys/pubs/Comet-ICSE%2720-CRC.pdf'>Improving the Effectiveness of Traceability Link Recovery using Hierarchical Bayesian Networks</a>",
+                "<a href='https://arxiv.org/pdf/1908.00614.pdf'>Learning to Identify Security- Related Issues Using Convolutional Neural Networks</a>"
+            ]
+        }
+    },
+
+    "education": {
+        "wm": {
+            "id": "wm",
+            "icon_filename": "wm.png",
+            "time": "2016 - 2020",
+            "title": "<a href='https://www.wm.edu/as/computerscience/'>The College of William & Mary</a>",
+            "link": "https://www.wm.edu/",
+            "subtitle": "B.S. Computer Science, Linguistics Minor",
+            "bullets": []
+        }
+    },
+    "skills": {
+        "programming": {
+            "title": "Programming",
+            "items": [
+                "Python",
+                "Hack (PHP)",
+                "Javascript",
+                "Java"
+            ]
+        },
+        "data": {
+            "title": "Data",
+            "items": [
+                "SQL (Presto/Spark)",
+                "Pipelining",
+                "Pandas/Numpy",
+                "Hive"
+            ]
+        },
+        "web": {
+            "title": "Web",
+            "items": [
+                "React",
+                "TypeScript",
+                "GraphQL",
+                "HTML/CSS"
+            ]
+        },
+        "dev_tools": {
+            "title": "Tools",
+            "items": [
+                "Version Control",
+                "Unix"
+            ]
+        }
+    },
+    "projects": {
+        "chordsight": {
+            "title": "<a href='https://github.com/DanielMcCrystal/ChordSight'>Chordsight</a>",
+            "description": "Browser-based realtime MIDI visualization tool to display chord names and guitar patterns, built in <strong>Typescript</strong> using <strong>React</strong>"
+        },
+        "resume": {
+            "title": "Mild",
+            "description": "Lightweight HTML template preprocessor built in <strong>Python</strong> (used to create this resume!)"
+        }
+    }
+}
