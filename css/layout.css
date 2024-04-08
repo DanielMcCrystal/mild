@@ -6,6 +6,8 @@
 body {
     margin: 0;
     height: 100%;
+    width: 8.5in;
+
 }
 
 html {
@@ -20,6 +22,7 @@ html {
     --light-wm-green: #358c6a;
     font-size: 8.5pt;
     background-color: aliceblue;
+
 }
 
 div {
@@ -31,5 +34,5 @@ resume-document {
     font-family: "Avenir";
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
 }

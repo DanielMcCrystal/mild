@@ -8,18 +8,30 @@
 
     },
     "work": {
+        "aai_swe": {
+            "id": "aai_swe",
+            "icon_filename": "aai.jpg",
+            "time": "2023 - present",
+            "title": "<a href='https://www.assemblyai.com/'>AssemblyAI</a>",
+            "subtitle": "Software Engineer",
+            "bullets": [
+                "Built data lakehouse to ingest and 12.5 million hours of audio data (<strong>GCS</strong>), queryable via associated metadata (<strong>BigTable/BigQuery</strong>)",
+                "Set up <strong>Spark</strong> infrastructure to fulfill ad-hoc big data transformation requests from Research team\n<ul><li>Transcoding/segmentation/analysis of 500+ TB of audio data</li></ul>",
+                "Developed heuristic filters to identify high-quality audio transcripts to use as training data",
+                "Implemented features of <strong>Python</strong> SDK for production transcription API"
+            ]
+        },
         "meta_swe": {
             "id": "meta_swe",
             "icon_filename": "meta.png",
-            "time": "2020 - present",
-            "title": "Meta Platforms",
+            "time": "2020 - 2023",
+            "title": "<a href='https://www.meta.com/'>Meta Platforms</a>",
             "subtitle": "Software Engineer",
             "bullets": [
-                "Integrity Measurements & Insights team\n<ul><li>Develop configurable data pipeline platform to generate <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong></li><li>Collaborate with data scientists to implement rigorous statistical methodologies at Facebook and Instagram scale (hundreds of billions of impressions per day)</li><li>Maintain relationships with client teams help with metric onboarding and requirement discovery</li><li>Participate in on-call rotation to keep infrastructure consistently operational</li></ul>",
+                "Integrity Measurements & Insights team\n<ul><li>Develop configurable data pipeline platform to generate <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong></li><li>Collaborate with data scientists to implement rigorous statistical methodologies at Facebook and Instagram scale (hundreds of billions of impressions per day)</ul>",
                 "Build infrastructure for the Integrity Guardrails platform: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features\n<ul><li>Flagship metrics owned by our team were included in all product experiments</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul>",
                 "Proposed and led year-long architecture consolidation of three different machine-learning-based measurement systems by breaking them down into modular components\n<ul><li>Resulted in 75% compute savings in aggregate</li><li>Reduction of codebase fragmentation led to a more sustainable developer environment</li></ul>",
-                "Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes",
-                "Proposed and implemented novel methodology for measuring concentration of harmful user experiences"
+                "Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes"
             ]
         },
         "meta_intern": {
@@ -42,7 +54,8 @@
             "subtitle": "Research Assistant",
             "bullets": [
                 "Designed and implemented a modular tool in <strong>Python</strong> for executing and evaluating 10 differnent information retrieval techniques on arbitrary codebases",
-                "Converted a serial document processing system to a parallel one, improving compuation time by ~40x"
+                "Converted a serial document processing system to a parallel one, improving compuation time by ~40x",
+                "Built web-scraping tool to collect data for machine learning model training"
             ],
             "publications": [
                 "<a href='https://www.cs.wm.edu/~denys/pubs/Comet-ICSE%2720-CRC.pdf'>Improving the Effectiveness of Traceability Link Recovery using Hierarchical Bayesian Networks</a>",
@@ -68,33 +81,36 @@
             "items": [
                 "Python",
                 "Hack (PHP)",
-                "Javascript",
+                "Javascript/Typescript",
                 "Java"
             ]
         },
         "data": {
             "title": "Data",
             "items": [
-                "SQL (Presto/Spark)",
-                "Pipelining",
-                "Pandas/Numpy",
-                "Hive"
+                "SQL",
+                "Spark",
+                "Airflow",
+                "Beam"
             ]
         },
         "web": {
             "title": "Web",
             "items": [
                 "React",
-                "TypeScript",
+                "SolidJS",
                 "GraphQL",
                 "HTML/CSS"
             ]
         },
-        "dev_tools": {
-            "title": "Tools",
+        "cloud": {
+            "title": "Cloud",
             "items": [
-                "Version Control",
-                "Unix"
+                "Cloud Storage",
+                "BigQuery",
+                "BigTable",
+                "Dataproc",
+                "PubSub"
             ]
         }
     },

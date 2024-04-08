@@ -10,7 +10,7 @@ skill-category-title {
 #skills-content {
     display: flex;
     flex-direction: row;
-    gap: 1.5em;
+    gap: 3em;
 }
 
 skill-category-items>ul {
