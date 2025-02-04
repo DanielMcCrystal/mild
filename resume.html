@@ -43,11 +43,11 @@
                 <rect width="100%" height="1" style="fill:var(--light-wm-green);stroke-width:1;" />
             </svg>
         </timeline>
-        <section-item-date>2023 - present</section-item-date>
+        <section-item-date>2023 - 2024</section-item-date>
     </section-item-header>
     <section-item-content>
         <ul>
-            <li>Built data lakehouse to ingest and 12.5 million hours of audio data (<strong>GCS</strong>), queryable via associated metadata (<strong>BigTable/BigQuery</strong>)</li><li>Set up <strong>Spark</strong> infrastructure to fulfill ad-hoc big data transformation requests from Research team
+            <li>Built data lakehouse intake pipeline on <strong>Dataproc (BEAM)</strong> to ingest and store 12.5 million hours of audio data (<strong>GCS</strong>), queryable via associated metadata (<strong>BigTable/BigQuery</strong>)</li><li>Set up <strong>PySpark</strong> infrastructure, orchestrated on <strong>Apache Airflow</strong> and executed via <strong>Dataproc</strong>, to fulfill ad-hoc big data transformation requests from Research team
 <ul><li>Transcoding/segmentation/analysis of 500+ TB of audio data</li></ul></li><li>Developed heuristic filters to identify high-quality audio transcripts to use as training data</li><li>Implemented features of <strong>Python</strong> SDK for production transcription API</li>
         </ul>
     </section-item-content>
@@ -66,14 +66,13 @@
                 <rect width="100%" height="1" style="fill:var(--light-wm-green);stroke-width:1;" />
             </svg>
         </timeline>
-        <section-item-date>2020 - 2023</section-item-date>
+        <section-item-date>2020 - 2023  //  2024 - present</section-item-date>
     </section-item-header>
     <section-item-content>
         <ul>
-            <li>Integrity Measurements & Insights team
-<ul><li>Develop configurable data pipeline platform to generate <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong></li><li>Collaborate with data scientists to implement rigorous statistical methodologies at Facebook and Instagram scale (hundreds of billions of impressions per day)</ul></li><li>Build infrastructure for the Integrity Guardrails platform: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features
-<ul><li>Flagship metrics owned by our team were included in all product experiments</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul></li><li>Proposed and led year-long architecture consolidation of three different machine-learning-based measurement systems by breaking them down into modular components
-<ul><li>Resulted in 75% compute savings in aggregate</li><li>Reduction of codebase fragmentation led to a more sustainable developer environment</li></ul></li><li>Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes</li>
+            <li>Developed configurable data pipeline platform to generate <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong></li><li>Built infrastructure that powered the Integrity Guardrails platform: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features
+<ul><li>Flagship metrics owned by our team were included in all product experiments; roughly 10,000 experiments per month</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul></li><li>Proposed and led year-long architecture consolidation of three different machine-learning-based measurement systems by breaking them down into modular components
+<ul><li>Resulted in 75% compute savings in aggregate</li><li>Reduction of codebase fragmentation led to a more sustainable developer environment</li></ul></li><li>Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes</li><li>Built prototype of a graph visualization tool to display our complex ecosystem of configs, pipelines, tables, code files, and asset ownership</li>
         </ul>
     </section-item-content>
 </section-item>
@@ -169,7 +168,7 @@
     <skill-category-title><u>Programming</u></skill-category-title>
     <skill-category-items>
         <ul>
-            <li>Python</li><li>Hack (PHP)</li><li>Javascript/Typescript</li><li>Java</li>
+            <li>Python</li><li>Hack (PHP)</li><li>Javascript</li><li>Typescript</li><li>Java</li>
         </ul>
     </skill-category-items>
 </skill-category>
@@ -185,7 +184,7 @@
     <skill-category-title><u>Web</u></skill-category-title>
     <skill-category-items>
         <ul>
-            <li>React</li><li>SolidJS</li><li>GraphQL</li><li>HTML/CSS</li>
+            <li>React</li><li>SolidJS</li><li>GraphQL</li><li>HTML</li><li>CSS</li>
         </ul>
     </skill-category-items>
 </skill-category>
@@ -220,6 +219,14 @@
     </project-title>
     <project-description>
         Lightweight HTML template preprocessor built in <strong>Python</strong> (used to create this resume!)
+    </project-description>
+</project>
+            <project>
+    <project-title>
+        Cyc
+    </project-title>
+    <project-description>
+        Experimental calendar / event manager where cycles are the primary abstraction, with an emphasis on harmonization of these cycles
     </project-description>
 </project>
         </section-item>

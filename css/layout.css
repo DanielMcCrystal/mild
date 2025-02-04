@@ -1,38 +1,36 @@
 @page {
-    size: letter portrait;
-    margin: 0;
+	size: letter portrait;
+	margin: 0;
 }
 
 body {
-    margin: 0;
-    height: 100%;
-    width: 8.5in;
-
+	margin: 0;
+	height: 100%;
+	width: 8.5in;
 }
 
 html {
-    print-color-adjust: exact;
-    -webkit-print-color-adjust: exact;
-    filter: opacity(1);
-    -webkit-filter: opacity(1);
+	print-color-adjust: exact;
+	-webkit-print-color-adjust: exact;
+	filter: opacity(1);
+	-webkit-filter: opacity(1);
 }
 
 :root {
-    --wm-green: #004d2f;
-    --light-wm-green: #358c6a;
-    font-size: 8.5pt;
-    background-color: aliceblue;
-
+	--wm-green: #004d2f;
+	--light-wm-green: #358c6a;
+	font-size: 8.5pt;
+	background-color: aliceblue;
 }
 
 div {
-    padding: 0;
+	padding: 0;
 }
 
 resume-document {
-    padding: 2em;
-    font-family: "Avenir";
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
+	padding: 2em;
+	font-family: "Avenir";
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
 }

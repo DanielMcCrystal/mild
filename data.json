@@ -1,127 +1,122 @@
 {
-    "header": {
-        "name": "Daniel McCrystal",
-        "location": "Washington, DC",
-        "email": "drmccrystal@gmail.com",
-        "github": "<a href='https://github.com/DanielMcCrystal/'>github.com/DanielMcCrystal</a>",
-        "phone": "434-566-8824"
+	"header": {
+		"name": "Daniel McCrystal",
+		"location": "Washington, DC",
+		"email": "drmccrystal@gmail.com",
+		"github": "<a href='https://github.com/DanielMcCrystal/'>github.com/DanielMcCrystal</a>",
+		"phone": "434-566-8824"
+	},
+	"work": {
+		"aai_swe": {
+			"id": "aai_swe",
+			"icon_filename": "aai.jpg",
+			"time": "2023 - 2024",
+			"title": "<a href='https://www.assemblyai.com/'>AssemblyAI</a>",
+			"subtitle": "Software Engineer",
+			"bullets": [
+				"Built data lakehouse intake pipeline on <strong>Dataproc (BEAM)</strong> to ingest and store 12.5 million hours of audio data (<strong>GCS</strong>), queryable via associated metadata (<strong>BigTable/BigQuery</strong>)",
+				"Set up <strong>PySpark</strong> infrastructure, orchestrated on <strong>Apache Airflow</strong> and executed via <strong>Dataproc</strong>, to fulfill ad-hoc big data transformation requests from Research team\n<ul><li>Transcoding/segmentation/analysis of 500+ TB of audio data</li></ul>",
+				"Developed heuristic filters to identify high-quality audio transcripts to use as training data",
+				"Implemented features of <strong>Python</strong> SDK for production transcription API"
+			]
+		},
+		"meta_swe": {
+			"id": "meta_swe",
+			"icon_filename": "meta.png",
+			"time": "2020 - 2023  //  2024 - present",
+			"title": "<a href='https://www.meta.com/'>Meta Platforms</a>",
+			"subtitle": "Software Engineer",
+			"bullets": [
+				"Developed configurable data pipeline platform to generate <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong>",
+				"Built infrastructure that powered the Integrity Guardrails platform: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features\n<ul><li>Flagship metrics owned by our team were included in all product experiments; roughly 10,000 experiments per month</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul>",
+				"Proposed and led year-long architecture consolidation of three different machine-learning-based measurement systems by breaking them down into modular components\n<ul><li>Resulted in 75% compute savings in aggregate</li><li>Reduction of codebase fragmentation led to a more sustainable developer environment</li></ul>",
+				"Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes",
+				"Built prototype of a graph visualization tool to display our complex ecosystem of configs, pipelines, tables, code files, and asset ownership"
+			]
+		},
+		"meta_intern": {
+			"id": "meta_intern",
+			"icon_filename": "fb.png",
+			"time": "Summer 2019",
+			"title": "Meta Platforms (Facebook)",
+			"subtitle": "Software Engineering Intern",
+			"bullets": [
+				"Built internal web console using <strong style>React</strong> for the Search Indexing Infrastructure team to monitor and repair data indexing pipelines",
+				"Wrote and deployed an automated service in <strong>Python</strong> for intelligent pipeline failure detection and notification",
+				"Tools are still in use by employees to oversee the ingestion of over 1.2 petabytes of data every week"
+			]
+		},
+		"semeru": {
+			"id": "semeru",
+			"icon_filename": "semeru.png",
+			"time": "2018 - 2020",
+			"title": "<a href='https://www.cs.wm.edu/semeru/'>SEMERU Lab</a>",
+			"subtitle": "Research Assistant",
+			"bullets": [
+				"Designed and implemented a modular tool in <strong>Python</strong> for executing and evaluating 10 differnent information retrieval techniques on arbitrary codebases",
+				"Converted a serial document processing system to a parallel one, improving compuation time by ~40x",
+				"Built web-scraping tool to collect data for machine learning model training"
+			],
+			"publications": [
+				"<a href='https://www.cs.wm.edu/~denys/pubs/Comet-ICSE%2720-CRC.pdf'>Improving the Effectiveness of Traceability Link Recovery using Hierarchical Bayesian Networks</a>",
+				"<a href='https://arxiv.org/pdf/1908.00614.pdf'>Learning to Identify Security- Related Issues Using Convolutional Neural Networks</a>"
+			]
+		}
+	},
 
-    },
-    "work": {
-        "aai_swe": {
-            "id": "aai_swe",
-            "icon_filename": "aai.jpg",
-            "time": "2023 - present",
-            "title": "<a href='https://www.assemblyai.com/'>AssemblyAI</a>",
-            "subtitle": "Software Engineer",
-            "bullets": [
-                "Built data lakehouse to ingest and 12.5 million hours of audio data (<strong>GCS</strong>), queryable via associated metadata (<strong>BigTable/BigQuery</strong>)",
-                "Set up <strong>Spark</strong> infrastructure to fulfill ad-hoc big data transformation requests from Research team\n<ul><li>Transcoding/segmentation/analysis of 500+ TB of audio data</li></ul>",
-                "Developed heuristic filters to identify high-quality audio transcripts to use as training data",
-                "Implemented features of <strong>Python</strong> SDK for production transcription API"
-            ]
-        },
-        "meta_swe": {
-            "id": "meta_swe",
-            "icon_filename": "meta.png",
-            "time": "2020 - 2023",
-            "title": "<a href='https://www.meta.com/'>Meta Platforms</a>",
-            "subtitle": "Software Engineer",
-            "bullets": [
-                "Integrity Measurements & Insights team\n<ul><li>Develop configurable data pipeline platform to generate <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong></li><li>Collaborate with data scientists to implement rigorous statistical methodologies at Facebook and Instagram scale (hundreds of billions of impressions per day)</ul>",
-                "Build infrastructure for the Integrity Guardrails platform: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features\n<ul><li>Flagship metrics owned by our team were included in all product experiments</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul>",
-                "Proposed and led year-long architecture consolidation of three different machine-learning-based measurement systems by breaking them down into modular components\n<ul><li>Resulted in 75% compute savings in aggregate</li><li>Reduction of codebase fragmentation led to a more sustainable developer environment</li></ul>",
-                "Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes"
-            ]
-        },
-        "meta_intern": {
-            "id": "meta_intern",
-            "icon_filename": "fb.png",
-            "time": "Summer 2019",
-            "title": "Meta Platforms (Facebook)",
-            "subtitle": "Software Engineering Intern",
-            "bullets": [
-                "Built internal web console using <strong style>React</strong> for the Search Indexing Infrastructure team to monitor and repair data indexing pipelines",
-                "Wrote and deployed an automated service in <strong>Python</strong> for intelligent pipeline failure detection and notification",
-                "Tools are still in use by employees to oversee the ingestion of over 1.2 petabytes of data every week"
-            ]
-        },
-        "semeru": {
-            "id": "semeru",
-            "icon_filename": "semeru.png",
-            "time": "2018 - 2020",
-            "title": "<a href='https://www.cs.wm.edu/semeru/'>SEMERU Lab</a>",
-            "subtitle": "Research Assistant",
-            "bullets": [
-                "Designed and implemented a modular tool in <strong>Python</strong> for executing and evaluating 10 differnent information retrieval techniques on arbitrary codebases",
-                "Converted a serial document processing system to a parallel one, improving compuation time by ~40x",
-                "Built web-scraping tool to collect data for machine learning model training"
-            ],
-            "publications": [
-                "<a href='https://www.cs.wm.edu/~denys/pubs/Comet-ICSE%2720-CRC.pdf'>Improving the Effectiveness of Traceability Link Recovery using Hierarchical Bayesian Networks</a>",
-                "<a href='https://arxiv.org/pdf/1908.00614.pdf'>Learning to Identify Security- Related Issues Using Convolutional Neural Networks</a>"
-            ]
-        }
-    },
-
-    "education": {
-        "wm": {
-            "id": "wm",
-            "icon_filename": "wm.png",
-            "time": "2016 - 2020",
-            "title": "<a href='https://www.wm.edu/as/computerscience/'>The College of William & Mary</a>",
-            "link": "https://www.wm.edu/",
-            "subtitle": "B.S. Computer Science, Linguistics Minor",
-            "bullets": []
-        }
-    },
-    "skills": {
-        "programming": {
-            "title": "Programming",
-            "items": [
-                "Python",
-                "Hack (PHP)",
-                "Javascript/Typescript",
-                "Java"
-            ]
-        },
-        "data": {
-            "title": "Data",
-            "items": [
-                "SQL",
-                "Spark",
-                "Airflow",
-                "Beam"
-            ]
-        },
-        "web": {
-            "title": "Web",
-            "items": [
-                "React",
-                "SolidJS",
-                "GraphQL",
-                "HTML/CSS"
-            ]
-        },
-        "cloud": {
-            "title": "Cloud",
-            "items": [
-                "Cloud Storage",
-                "BigQuery",
-                "BigTable",
-                "Dataproc",
-                "PubSub"
-            ]
-        }
-    },
-    "projects": {
-        "chordsight": {
-            "title": "<a href='https://github.com/DanielMcCrystal/ChordSight'>Chordsight</a>",
-            "description": "Browser-based realtime MIDI visualization tool to display chord names and guitar patterns, built in <strong>Typescript</strong> using <strong>React</strong>"
-        },
-        "resume": {
-            "title": "<a href='https://github.com/DanielMcCrystal/mild'>Mild</a>",
-            "description": "Lightweight HTML template preprocessor built in <strong>Python</strong> (used to create this resume!)"
-        }
-    }
+	"education": {
+		"wm": {
+			"id": "wm",
+			"icon_filename": "wm.png",
+			"time": "2016 - 2020",
+			"title": "<a href='https://www.wm.edu/as/computerscience/'>The College of William & Mary</a>",
+			"link": "https://www.wm.edu/",
+			"subtitle": "B.S. Computer Science, Linguistics Minor",
+			"bullets": []
+		}
+	},
+	"skills": {
+		"programming": {
+			"title": "Programming",
+			"items": [
+				"Python",
+				"Hack (PHP)",
+				"Javascript",
+				"Typescript",
+				"Java"
+			]
+		},
+		"data": {
+			"title": "Data",
+			"items": ["SQL", "Spark", "Airflow", "Beam"]
+		},
+		"web": {
+			"title": "Web",
+			"items": ["React", "SolidJS", "GraphQL", "HTML", "CSS"]
+		},
+		"cloud": {
+			"title": "Cloud",
+			"items": [
+				"Cloud Storage",
+				"BigQuery",
+				"BigTable",
+				"Dataproc",
+				"PubSub"
+			]
+		}
+	},
+	"projects": {
+		"chordsight": {
+			"title": "<a href='https://github.com/DanielMcCrystal/ChordSight'>Chordsight</a>",
+			"description": "Browser-based realtime MIDI visualization tool to display chord names and guitar patterns, built in <strong>Typescript</strong> using <strong>React</strong>"
+		},
+		"resume": {
+			"title": "<a href='https://github.com/DanielMcCrystal/mild'>Mild</a>",
+			"description": "Lightweight HTML template preprocessor built in <strong>Python</strong> (used to create this resume!)"
+		},
+		"cyc": {
+			"title": "Cyc",
+			"description": "Experimental calendar / event manager where cycles are the primary abstraction, with an emphasis on harmonization of these cycles"
+		}
+	}
 }
