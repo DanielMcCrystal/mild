@@ -14,7 +14,7 @@
 			"title": "<a href='https://www.assemblyai.com/'>AssemblyAI</a>",
 			"subtitle": "Software Engineer",
 			"bullets": [
-				"Built data lakehouse intake pipeline on <strong>Dataproc (BEAM)</strong> to ingest and store 12.5 million hours of audio data (<strong>GCS</strong>), queryable via associated metadata (<strong>BigTable/BigQuery</strong>)",
+				"Built data lakehouse intake pipeline on <strong>Dataproc (Beam)</strong> to ingest and store 12.5 million hours of audio data (<strong>GCS</strong>), queryable via associated metadata (<strong>BigTable/BigQuery</strong>)",
 				"Set up <strong>PySpark</strong> infrastructure, orchestrated on <strong>Apache Airflow</strong> and executed via <strong>Dataproc</strong>, to fulfill ad-hoc big data transformation requests from Research team\n<ul><li>Transcoding/segmentation/analysis of 500+ TB of audio data</li></ul>",
 				"Developed heuristic filters to identify high-quality audio transcripts to use as training data",
 				"Implemented features of <strong>Python</strong> SDK for production transcription API"
@@ -28,10 +28,10 @@
 			"subtitle": "Software Engineer",
 			"bullets": [
 				"Developed configurable data pipeline platform to generate <a href='https://about.fb.com/news/2022/05/community-standards-enforcement-report-q1-2022/'>company-critical integrity metrics</a> using <strong>Python, SQL, and Hack (PHP)</strong>",
-				"Built infrastructure that powered the Integrity Guardrails platform: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features\n<ul><li>Flagship metrics owned by our team were included in all product experiments; roughly 10,000 experiments per month</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul>",
+				"Built infrastructure that powered the Integrity Guardrails program: a company-wide initiative to empower product teams to detect unwanted regressions in integrity metrics before launching new features\n<ul><li>Flagship metrics owned by our team were included in all product experiments; roughly 10,000 experiments per month</li><li>Platform allowed 15+ teams to configure 100+ custom metrics for experimentation</li></ul>",
 				"Proposed and led year-long architecture consolidation of three different machine-learning-based measurement systems by breaking them down into modular components\n<ul><li>Resulted in 75% compute savings in aggregate</li><li>Reduction of codebase fragmentation led to a more sustainable developer environment</li></ul>",
 				"Built <strong>Python</strong> framework for elegantly managing complex dynamic data pipeline DAGs with thousands of nodes",
-				"Built prototype of a graph visualization tool to display our complex ecosystem of configs, pipelines, tables, code files, and asset ownership"
+				"Built prototype of a graph visualization tool using <strong>Cytoscape.js</strong> to display our complex ecosystem of configs, pipelines, tables, code files, and asset ownership"
 			]
 		},
 		"meta_intern": {
@@ -92,7 +92,14 @@
 		},
 		"web": {
 			"title": "Web",
-			"items": ["React", "SolidJS", "GraphQL", "HTML", "CSS"]
+			"items": [
+				"React.js",
+				"Solid.js",
+				"Cytoscape.js",
+				"GraphQL",
+				"HTML",
+				"CSS"
+			]
 		},
 		"cloud": {
 			"title": "Cloud",
@@ -116,7 +123,7 @@
 		},
 		"cyc": {
 			"title": "Cyc",
-			"description": "Experimental calendar / event manager where cycles are the primary abstraction, with an emphasis on harmonization of these cycles"
+			"description": "Experimental calendar built using <strong>Solid.js</strong> where cycles are the primary abstraction, with an emphasis on harmonization of these cycles"
 		}
 	}
 }

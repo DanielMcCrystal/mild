@@ -28,7 +28,7 @@ div {
 }
 
 resume-document {
-	padding: 2em;
+	padding: 1.5em;
 	font-family: "Avenir";
 	display: flex;
 	flex-direction: column;
